@@ -3,37 +3,9 @@
 
     angular
         .module('crowdApp')
-        .controller('AuthController', AuthController)
         .factory('AuthService', AuthService);
 
-    AuthController.$inject = ['AuthService']; //.$inject is used to avoid minifaction errors.
     AuthService.$inject = ['$firebaseSimpleLogin', '$location', '$rootScope', 'FIREBASE_URL', 'DataService'];
-
-    function AuthController(AuthService) {
-        /* jshint validthis: true */
-        var vm = this;
-
-        //Object bound to user input on register and login page
-        vm.user = {
-            email: '',
-            password: ''
-        };
-
-        //Method to register new user using the authService
-        vm.register = function() {
-            AuthService.register(vm.user);
-        };
-
-        //Method to login existing user using the authService
-        vm.login = function() {
-            AuthService.login(vm.user);
-        };
-
-        //Method to logout existing user using the authService
-        vm.logout = function() {
-            AuthService.logout();
-        };
-    }
 
     function AuthService($firebaseSimpleLogin, $location, $rootScope, FIREBASE_URL, DataService) {
 

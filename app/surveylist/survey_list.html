@@ -1,0 +1,20 @@
+<!-- List of Surveys available to user goes here. -->
+<!-- controllerAs "surveyList" -->
+<div class="row">
+    <div class="lead">
+        <h2>Survey List</h2>
+        <p>Listed below are all the surveys available to you.</p>
+    </div>
+    <div class="list-group">
+        <div class="row" ng-repeat="surv in surveyList.surveys | orderByPriority">
+            <!-- survey in survey.surveys is gross, rename controller. -->
+            <a href="" class="list-group-item" ng-click="surveyList.setSurvey(surv.$id)">
+                <!-- ng-click = pass survey.$id -->
+                <h4 class="list-group-item-heading">{{ surv.title }}</h4>
+                <p class="list-group-item-text">{{ surv.intro }}</p>
+                <p class="list-group-item-text">{{ surv.$id }}</p>
+                <!-- Can get title using firebase $id, better to have hash id's under clients -->
+            </a>
+        </div>
+    </div>
+</div>

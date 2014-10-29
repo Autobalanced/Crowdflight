@@ -1,1 +1,38 @@
 <!-- Specific selected survey goes here -->
+<!-- controllerAs "sv" -->
+<div class="row">
+
+    <div class="col-md-3">
+        <a href="#" class="pull-left">
+            <img src="http://unsplash.it/200/300/?random" alt="" class="img-responsive img-thumbnail">
+        </a>
+    </div>
+
+    <div class="col-md-9">
+        <div class="row">
+            <header>
+                <h3>{{ sv.survey.title }}</h3>
+            </header>
+            <hr>
+            <p>{{ sv.survey.intro }}</p>
+        </div>
+    </div>
+
+</div>
+
+<div class="row" ng-repeat="question in sv.survey.questions">
+    <div class="col-md-12">
+
+        <div class="row">
+            <div class="col-md-12">
+                <p>{{ question.questionText }}</p>
+            </div>
+        </div>
+
+        <div class="row" ng-repeat="response in question.responses">
+        	<div class="col-md-12">
+        		<p>{{ response }}</p>
+        	</div>
+        </div>
+    </div>
+</div>

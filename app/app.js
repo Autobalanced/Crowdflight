@@ -31,10 +31,16 @@
             });
         $routeProvider
         	.when('/survey_list', {
-        		templateUrl: 'survey/survey_list.html',
-        		controller: 'SurveyController',
-        		controllerAs: 'survey'
+        		templateUrl: 'surveylist/survey_list.html',
+        		controller: 'SurveyListController',
+        		controllerAs: 'surveyList'
         	});
+        $routeProvider
+            .when('/survey', {
+                templateUrl: 'survey/survey.html',
+                controller: 'SurveyController',
+                controllerAs: 'sv'
+            });
         $routeProvider.otherwise({
             redirectTo: '/'
         });
