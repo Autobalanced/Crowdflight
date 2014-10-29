@@ -28,10 +28,6 @@
 			SurveyListService.setSurvey(surveyId);
 
 			$location.path('/survey');
-		};
-
-		// 	$location.path('/survey');
-
-		
+		};		
 	}
 })();
