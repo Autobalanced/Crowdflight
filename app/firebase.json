@@ -1,0 +1,9 @@
+{
+  "firebase": "crowdflight",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

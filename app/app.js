@@ -41,6 +41,24 @@
                 controller: 'SurveyController',
                 controllerAs: 'sv'
             });
+        $routeProvider
+            .when('/create', {
+                templateUrl: 'cms/create.html',
+                controller: 'CmsController',
+                controllerAs: 'cms'
+            });
+        $routeProvider
+            .when('/client_login', {
+                templateUrl: 'accounts/clients/client_login.html',
+                controller: 'ClientAuthController',
+                controllerAs: 'clientAuth'
+            });
+        $routeProvider
+            .when('/client_register', {
+                templateUrl: 'accounts/clients/client_register.html',
+                controller: 'ClientAuthController',
+                controllerAs: 'clientAuth'
+            });
         $routeProvider.otherwise({
             redirectTo: '/'
         });

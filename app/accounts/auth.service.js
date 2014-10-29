@@ -12,16 +12,20 @@
         var authRef = new Firebase(FIREBASE_URL);
         var auth = $firebaseSimpleLogin(authRef);
         var registrationEmails = DataService.$child('registrationEmails'); // Registration emails table in Firebase
+        var crowdflightUsers = DataService.$child('crowdflightUsers'); // Connect to user array in Firebase
 
         var authServiceObject = {
-            register: function(user) //accepts $scope.user from authController
+            register: function(user) //accepts vm.user from authController
                 {
                     auth.$createUser(user.email, user.password).then(function(data) {
                         console.log(data);
                         authServiceObject.login(user, function() {
-                            registrationEmails.$add({
-                                email: user.email
-                            }); // Register new registration for sign up email event. Need to call login for security rules before registering email
+                            registrationEmails.$add({ 
+                                email: user.email // Register new registration for sign up email event. Need to call login for security rules before registering email
+                            });
+                            crowdflightUsers.$add({
+                                email: user.email,
+                            }); 
                         });
                     });
                     console.log("Register call" + user);

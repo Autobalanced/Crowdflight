@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"$root",
+				"$rootScope	AngularJS"
+			],
+			[
 				"$route",
 				"$routeProvider	AngularJS"
 			],
@@ -64,42 +68,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/accounts/data.service.js",
+			"file": "app/accounts/clients/client_register.html",
 			"settings":
 			{
-				"buffer_size": 441,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/app.js",
-			"settings":
-			{
-				"buffer_size": 1369,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/survey/survey_list.html",
-			"settings":
-			{
-				"buffer_size": 773,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/survey/survey.controller.js",
-			"settings":
-			{
-				"buffer_size": 712,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/survey/survey.service.js",
-			"settings":
-			{
-				"buffer_size": 339,
+				"buffer_size": 461,
 				"line_ending": "Windows"
 			}
 		},
@@ -107,8 +79,32 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 3142,
+				"buffer_size": 3407,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/accounts/clients/client_login.html",
+			"settings":
+			{
+				"buffer_size": 472,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/accounts/clients/clientAuth.controller.js",
+			"settings":
+			{
+				"buffer_size": 1030,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/accounts/clients/clientAuth.service.js",
+			"settings":
+			{
+				"buffer_size": 2632,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -219,28 +215,43 @@
 		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight",
 		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app",
 		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/accounts",
+		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/accounts/clients",
 		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/cms",
 		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/css",
 		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/lib",
 		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/main",
 		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/survey",
+		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/surveylist",
 		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/planning"
 	],
 	"file_history":
 	[
-		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/accounts/auth.controller.js",
-		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/accounts/auth.service.js",
-		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/index.html",
-		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/main/main.controller.js",
 		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/app.js",
+		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/accounts/auth.controller.js",
+		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/index.html",
+		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/cms/create.html",
+		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/cms/create.controller.js",
+		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/accounts/clients/clientAuth.controller.js",
 		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/main/landing_page.html",
+		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/accounts/auth.service.js",
+		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/survey/survey.service.js",
+		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/survey/survey.controller.js",
+		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/survey/survey.html",
+		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/surveylist/surveylist.controller.js",
+		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/surveylist/survey_list.html",
+		"/C/Users/Autobalanced/Documents/Programming/Projects/InFlight/questionnaire.html",
+		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/surveylist/surveylist.service.js",
+		"/C/Users/Autobalanced/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/accounts/data.service.js",
+		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/survey/surveylist.service.js",
+		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/survey/surveylist.controller.js",
+		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/survey/survey_list.html",
+		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/main/main.controller.js",
 		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/planning/Crowdflight_db.txt",
 		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/planning/Crowdflight_layout.txt",
-		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/survey/survey_list.html",
 		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/accounts/login.html",
 		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/accounts/register.html",
 		"/C/Users/Autobalanced/Documents/Programming/Learning/node-todo/node_modules/mongoose/node_modules/mongodb/LICENSE",
-		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/survey/survey.html",
 		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/survey/survey.js",
 		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/accounts/authService.js",
 		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/app/accounts/authController.js",
@@ -266,7 +277,6 @@
 		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/package.json",
 		"/C/Users/Autobalanced/Documents/Programming/Projects/Crowdflight/planning/Crowdflight db.txt",
 		"/C/Users/Autobalanced/Documents/Programming/Learning/angularcourse/appengine-angular-seed-python-master/package.json",
-		"/C/Users/Autobalanced/Documents/Programming/Projects/InFlight/questionnaire.html",
 		"/C/Users/Autobalanced/Documents/Programming/Projects/InFlight/index.html",
 		"/C/Users/Autobalanced/Documents/Programming/Projects/InFlight/firebase.json",
 		"/C/Users/Autobalanced/Documents/Programming/Learning/angularcourse/appengine-angular-seed-python-master/app/partials/landing_page.html",
@@ -343,19 +353,7 @@
 		"/C/Users/Autobalanced/Documents/Programming/Projects/Angular/eggly/app/test.js",
 		"/C/Users/Autobalanced/AppData/Roaming/Sublime Text 3/Packages/User/AngularJS-js-completions.sublime-settings",
 		"/C/Users/Autobalanced/Documents/Programming/Projects/Resume/Resume.html",
-		"/C/Users/Autobalanced/Documents/Programming/Projects/Angular/egghead/main8.js",
-		"/C/Users/Autobalanced/Documents/Programming/Projects/Angular/egghead/main7.js",
-		"/C/Users/Autobalanced/Documents/Programming/Projects/Angular/egghead/main4.js",
-		"/C/Users/Autobalanced/Documents/Programming/Projects/Angular/egghead/index4.html",
-		"/C/Users/Autobalanced/Documents/Programming/Projects/Angular/egghead/main6.js",
-		"/C/Users/Autobalanced/Documents/Programming/Projects/Angular/egghead/main5.js",
-		"/C/Users/Autobalanced/Documents/Programming/Projects/Angular/egghead/index5.html",
-		"/C/Users/Autobalanced/Documents/Programming/Projects/Angular/egghead/main3.js",
-		"/C/Users/Autobalanced/Documents/Programming/Projects/Angular/egghead/index3.html",
-		"/C/Users/Autobalanced/Documents/Programming/Projects/Angular/egghead/main2.js",
-		"/C/Users/Autobalanced/Documents/Programming/Projects/Angular/egghead/index2.html",
-		"/C/Users/Autobalanced/Documents/Programming/Projects/Angular/egghead/index.html",
-		"/C/Users/Autobalanced/Documents/Programming/Projects/Angular/angularTest.js"
+		"/C/Users/Autobalanced/Documents/Programming/Projects/Angular/egghead/main8.js"
 	],
 	"find":
 	{
@@ -396,24 +394,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/accounts/data.service.js",
+					"file": "app/accounts/clients/client_register.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 441,
+						"buffer_size": 461,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								166,
-								166
+								461,
+								461
 							]
 						],
 						"settings":
@@ -421,46 +419,41 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -471,39 +464,42 @@
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/app.js",
-					"semi_transient": false,
+					"file": "app/index.html",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1369,
+						"buffer_size": 3407,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1281,
-								1281
+								0,
+								0
 							]
 						],
 						"settings":
@@ -511,46 +507,41 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -561,11 +552,193 @@
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/accounts/clients/client_login.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 472,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
-								"bh_double_quote_content"
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/accounts/clients/clientAuth.controller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1030,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								911,
+								911
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 4,
@@ -579,197 +752,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/survey/survey_list.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 773,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								773,
-								773
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/survey/survey.controller.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 712,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								700,
-								700
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
 					"buffer": 4,
-					"file": "app/survey/survey.service.js",
+					"file": "app/accounts/clients/clientAuth.service.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 339,
+						"buffer_size": 2632,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								103,
-								103
+								1793,
+								1793
 							]
 						],
 						"settings":
@@ -777,46 +773,41 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -827,110 +818,25 @@
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 117.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3142,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3109,
-								3109
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 396.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
 					"type": "text"
 				}
 			]
