@@ -13,12 +13,13 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/app.css" />
     <link rel="stylesheet" href="css/auth.css" />
-
+    <!-- Custom fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
     <!-- Navbar that stay on the top of ever page. -->
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" ng-controller="AuthController as auth">
+    <div class="navbar navbar-default" role="navigation" ng-controller="AuthController as auth">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -47,7 +48,11 @@
     </div>
 
     <!-- Main content that changes based on route. -->
-    <div ng-view class="container"></div>
+    <div ng-view></div>
+
+    <div class="footer">
+        <h4 class="text-center muted">&copy;Created by Scott Connor 2014</h4>
+    </div>
 
     <!-- AngularJS -->
     <script src="lib/angular/angular.js"></script>

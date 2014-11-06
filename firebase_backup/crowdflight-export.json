@@ -1,0 +1,71 @@
+{
+  "crowdflightClients" : {
+    "-J_QrkiLn6dPloDodeYS" : {
+      "email" : "testclient@testclient.com"
+    }
+  },
+  "crowdflightUsers" : {
+    "13" : {
+      "How would you rate this survey?" : "3",
+      "ID" : "13",
+      "Submit date" : "2014-11-05 05:40:22",
+      "Test question one" : "Answer B",
+      "What is your age?" : "28"
+    },
+    "-J_QgSzTODsfGctgs6W-" : {
+      "email" : "testuserOne@test.com"
+    },
+    "-J_oIEtdRmcU5c4mOH0b" : {
+      "email" : "scwables@gmail.com"
+    }
+  },
+  "registrationEmails" : {
+    "-JZNrcBErd1iiao0CNVZ" : {
+      "email" : "scwables@gmail.com"
+    },
+    "-J_QgSzQX7jHr8R1F6vR" : {
+      "email" : "testuserOne@test.com"
+    },
+    "-J_n0o1QL9sJQ-Kv-lIo" : {
+      "email" : "testclient2@testclient.com"
+    },
+    "-J_oI5IHjm40CwGd3-sH" : {
+      "email" : "scwables@gmail.com"
+    },
+    "-J_oIEtaAfEgRvaFn6Za" : {
+      "email" : "scwables@gmail.com"
+    }
+  },
+  "surveys" : {
+    "surveyOne" : {
+      "intro" : "Test text for Crowdflight Test Survey One",
+      "media" : "image1.png",
+      "questions" : {
+        "questionOne" : {
+          "questionText" : "This is the first question of Survey One.",
+          "responses" : {
+            "response1" : ""
+          },
+          "type" : "text"
+        }
+      },
+      "title" : "Crowdflight Test Survey One"
+    },
+    "surveyTwo" : {
+      "intro" : "Text text for Crowdflight Test Two",
+      "media" : "image.png",
+      "questions" : {
+        "questionOne" : {
+          "questionText" : "This is the first question of survey two",
+          "responses" : {
+            "response1" : "Response One",
+            "response2" : "text for response two Question Two",
+            "response3" : "This is test text for response 3 of question two."
+          },
+          "type" : "radio"
+        }
+      },
+      "title" : "Crowdflight Test Survey Two"
+    }
+  }
+}
