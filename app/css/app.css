@@ -1,7 +1,4 @@
 /* Bootstrap style overrides */
-/*.container-fluid {
-    padding: 0;
-}*/
 
 .navbar {
     margin-bottom: 0;
@@ -19,7 +16,6 @@
 }
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: transparent;
 }
 .landing-section-one {
     padding: 40px 15px;
@@ -38,10 +34,13 @@ body {
     color: white;
     background: transparent;
 }
-
-.form-signin-heading
-{
-	color: white;
+.btn:hover,
+.btn:focus {
+    color: #999999;
+    border-color: #999999;
+}
+.form-signin-heading {
+    color: white;
 }
 /* Custom typeform CSS */
 
