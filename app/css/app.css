@@ -1,31 +1,39 @@
 /* Bootstrap style overrides */
+/* Navbar margin creates white bar, removed */
 
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
 }
 /* Custom CSS */
+/* Apply custom Google Font */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* Apply wall paper image to containers (WARNING, Unsplash URL's have been known to change! Store and direct locally on build) */
 
 .wallpaper-one {
-    background: url("https://unsplash.it/1920/900/?image=431") no-repeat center center fixed;
+    background: url("https://unsplash.it/1920/900/?image=432") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     min-height: 90vh;
 }
-body {
-    font-family: 'Source Sans Pro', sans-serif;
-}
-.landing-section-one {
+/* TODO: Should be renamed "white-centered-text" */
+
+.white-text {
     padding: 40px 15px;
     text-align: center;
     color: white;
     background: transparent;
 }
-.landing-section-one h1 {
+.white-text h1 {
     font-size: 63px;
 }
+/* Apply white border and text colour to buttons */
+
 .btn-white-mat {
     border-width: 2px;
     border-radius: 4px;
@@ -34,18 +42,49 @@ body {
     color: white;
     background: transparent;
 }
+/* Grey highlight on hover for button, TODO: perhaps a shade lighter, black was too jarring */
+
 .btn:hover,
 .btn:focus {
     color: #999999;
     border-color: #999999;
 }
+/* White colour for authentication pages text */
+
 .form-signin-heading {
     color: white;
+}
+/* Custom iPad mockup CSS */
+
+.iPadding {
+    border-width: 20px;
+    border-radius: 5px;
+    border-color: #999999;
+    border-style: solid;
+    color: white;
+    background: black;
+    min-height: 500px;
+}
+.btn-pad {
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    height: 250px;
+}
+.height-fix {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 /* Custom typeform CSS */
 
 .typeform-row {
-    min-height: 100vh;
+    /*min-height: 100vh;*/
+    
+    height: auto;
 }
 .muted {
     color: #999999;

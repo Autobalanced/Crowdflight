@@ -76,6 +76,13 @@
                 controller: 'TypeformController',
                 controllerAs: 'type'
             });
+        $routeProvider
+            .when('/demo',
+            {
+                templateUrl: 'demo/demo.html',
+                controller: 'DemoController',
+                controllerAs: 'demo'
+            });
         $routeProvider.otherwise(
         {
             redirectTo: '/'

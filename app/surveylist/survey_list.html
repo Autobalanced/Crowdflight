@@ -3,25 +3,27 @@
 <div class="container-fluid wallpaper-one">
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
-            <div class="lead">
-                <h2>Survey List</h2>
-                <p>Listed below are all the surveys available to you.</p>
-            </div>
-            <div class="list-group">
-                <div class="row">
-                    <a href="/#/typeformsurvey" class="list-group-item">
-                        <h4 class="list-group-item-heading">Typeform Survey Test One</h4>
-                        <p class="list-group-item-text">Click here to text the Typeform Survey</p>
-                    </a>
+            <div class="white-text">
+                <div class="lead">
+                    <h2>Survey List</h2>
+                    <p>Listed below are all the surveys available to you.</p>
                 </div>
-                <div class="row" ng-repeat="surv in surveyList.surveys | orderByPriority">
-                    <a href="" class="list-group-item" ng-click="surveyList.setSurvey(surv.$id)">
-                        <!-- ng-click = pass survey.$id -->
-                        <h4 class="list-group-item-heading">{{ surv.title }}</h4>
-                        <p class="list-group-item-text">{{ surv.intro }}</p>
-                        <!-- <p class="list-group-item-text">{{ surv.$id }}</p> -->
-                        <!-- Can get title using firebase $id, better to have hash id's under clients -->
-                    </a>
+                <div class="list-group">
+                    <div class="row">
+                        <a href="/#/typeformsurvey" class="list-group-item">
+                            <h4 class="list-group-item-heading">Typeform Survey Test One</h4>
+                            <p class="list-group-item-text">Click here to text the Typeform Survey</p>
+                        </a>
+                    </div>
+                    <div class="row" ng-repeat="surv in surveyList.surveys | orderByPriority">
+                        <a href="" class="list-group-item" ng-click="surveyList.setSurvey(surv.$id)">
+                            <!-- ng-click = pass survey.$id -->
+                            <h4 class="list-group-item-heading">{{ surv.title }}</h4>
+                            <p class="list-group-item-text">{{ surv.intro }}</p>
+                            <!-- <p class="list-group-item-text">{{ surv.$id }}</p> -->
+                            <!-- Can get title using firebase $id, better to have hash id's under clients -->
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
