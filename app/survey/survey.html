@@ -16,24 +16,52 @@
                 </header>
                 <hr>
                 <p>{{ sv.survey.intro }}</p>
+                <p>{{ sv.currentQuestion }}</p>
             </div>
         </div>
 
     </div>
 
-    <div class="row" ng-repeat="question in sv.survey.questions">
+    <div class="row" ng-repeat="question in sv.survey.questions | limitTo: maxQuestions" ng-show="sv.isSet({{ question.id }})">
         <div class="col-md-12">
 
             <div class="row">
                 <div class="col-md-12">
-                    <p>{{ question.questionText }}</p>
+                    <header>
+                        <h3>
+                            <!-- TODO: Need to include Question Title field once CMS implemented -->
+                        </h3>
+                    </header>
+                    <hr>
+                    <h4>{{ question.questionText }}</h4>
                 </div>
             </div>
 
-            <div class="row" ng-repeat="response in question.responses">
-                <div class="col-md-12">
-                    <p>{{ response }}</p>
-                </div>
+            <div class="radio" ng-repeat="responses in question.responses" ng-if="question.type == 'radio'">
+                <label>
+                    <!-- Need to change to "responses.index" for cleaner html  -->
+                    <input type="radio" name="responsesRadio{{question.id}}" id="responese{{responses}}" value="{{responses}}">{{ responses }}
+                </label>
             </div>
+
+            <div ng-repeat="responses in question.responses" ng-if="question.type == 'textarea'">
+                <blockquote class="blockquote">
+                    <p class="text-muted">{{ textResponse }}</p>
+                    <footer>{{ currentUser.email }}</footer>
+                </blockquote>
+                <textarea name="responsesText{{question.id}}" id="" rows="5" class="form-control" ng-model="textResponse"></textarea>
+            </div>
+
         </div>
+
+        <div class="row">
+            <hr>
+            <ul class="pager">
+                <li ng-class="{disabled: sv.currentQuestion==0}"><a href="" ng-click="sv.prevQuestion()">&larr; Previous</a>
+                </li>
+                <li ng-class="{disabled: sv.currentQuestion >= sv.maxQuestions}"><a href="" ng-click="sv.nextQuestion()">Next &rarr;</a>
+                </li>
+            </ul>
+        </div>
+
     </div>

@@ -41,6 +41,7 @@ body {
     border-style: solid;
     color: white;
     background: transparent;
+    font-size: 150%;
 }
 /* Grey highlight on hover for button, TODO: perhaps a shade lighter, black was too jarring */
 
@@ -72,6 +73,10 @@ body {
     border-style: solid;
     color: white;
     height: 250px;
+}
+.btn-pad:hover
+{
+    /* TODO: Add hover effects here. */
 }
 .height-fix {
     position: absolute;
