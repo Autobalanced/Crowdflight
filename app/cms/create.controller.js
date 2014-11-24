@@ -5,7 +5,7 @@
 		.module('crowdApp')
 		.controller('CmsController', CmsController);
 
-	Cmsontroller.$inject = [''];
+	// CmsController.$inject = [''];
 
 	function CmsController(){
 
